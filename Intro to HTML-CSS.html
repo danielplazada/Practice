@@ -1,33 +1,42 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" herf="stle.css">
     <title>Listy list</title>
     <style>
+      <link rel="stylesheet" herf="stle.css">
       ol { display: flex;}
-      li { margin: 20px; } //margine size
+      li { margin: 20px; }
+      li {font-size: 1.5em;}
+.highlight {
+  background-color: yellow;
+}
+.done {
+  text-decoration: line-through;
+}
     </style>
   </head>
   <body>
     <style>
       p { text-align: center;color: blue; }
-      p { font-size:30pt; } //font_size
+      p { font-size:30pt; }
     </style>
       <p>This is a haiku</p>
       <p>So I want each line centered</p>
       <p>Let’s make it stylish</p>
     <style>
-      li { font-size:14pt; } //font_size
+      li { font-size:14pt; }
     </style>
     <ol> <!--numbered list -->
-      <li>Apple apple berry berry sauce sauce sauce.<br>
+      <li class="done">Apple apple berry berry sauce sauce sauce.<br>
           Cook it on the stove and serve it to your boss.
-      <li>Betty bought a bit of butter,
+      <li class="highlight">Betty bought a bit of butter,
           but the butter's burning bitter.<br>
       <li>Crisp cookies claim Charlie's cookout crown.<br>  Clever Clara
           clocked the crows at <em>c</em> (clearly connivance!)
       <li>Daring drivers drove down Devil's Ditch in Dodges.
       <li>Evil eggs explode everywhere. Eww!
-    </ol><br>
+    </ol>
     <ul> <!--//bolleted list -->
       <li>Apple apple berry berry sauce sauce sauce.<br>
           Cook it on the stove and serve it to your boss.
@@ -38,5 +47,6 @@
       <li>Daring drivers drove down Devil's Ditch in Dodges.
       <li>Evil eggs explode everywhere. Eww!
     </ul>
+    </ol>
   </body>
 </html>

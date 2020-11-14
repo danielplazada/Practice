@@ -15,11 +15,12 @@ ul {
   margin: 0;
   }
 p{
-  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
-  font-size: 16pt;
   text-align:left;
   }
 body{
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 16pt;
+  width: 462px;
   background-color:pink;
   }
 h3{
@@ -37,15 +38,16 @@ h3{
   }
   .disbox {
     border: 10px solid black;
-    height: 300;
-    width: 300;
+    height: 500;
+    width: 500;
     background-color:(12,23,23);
+    font-style:italic;
     text-align:left;
     }
 .imgbox {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 500;
+  margin-right: 500;
   border: 10px solid black;
   width:300;
   height:300;

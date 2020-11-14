@@ -1,0 +1,52 @@
+li span{
+  font-style: italic;
+  font-weight:bold;
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 16pt;
+  }
+li{
+  text-align: left;
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 16pt;
+  }
+ul {
+ list-style-type:none;
+  padding: 0;
+  margin: 0;
+  }
+p{
+  font-family: Impact, "Franklin Gothic Bold", "Arial Black", sans-serif;
+  font-size: 16pt;
+  text-align:left;
+  }
+body{
+  background-color:pink;
+  }
+h3{
+  font-style: italic;
+  font-size: 30px;
+  color:Black;
+  text-align:center;
+  }
+.mainbox {
+  margin: 1px;
+  border: 10px solid black;
+  height: 300;
+  width: 300;
+  background-color:(12,23,23);
+  }
+  .disbox {
+    border: 10px solid black;
+    height: 300;
+    width: 300;
+    background-color:(12,23,23);
+    text-align:left;
+    }
+.imgbox {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px solid black;
+  width:300;
+  height:300;
+  }

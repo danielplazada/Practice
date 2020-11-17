@@ -1,12 +1,12 @@
 function makeGrid() {
-    var gridY = document.getElementById('inputHeight').value;
-    var gridX = document.getElementById('inputWidth').value;
+    var gridHeight = document.getElementById('inputHeight').value;
+    var gridWidth = document.getElementById('inputWidth').value;
     var mainGrid = document.getElementById('pixelCanvas');
-
-    for (let x = 0; x < gridY; x++) {
+    mainGrid.innerHTML = '';
+    for (let x = 0; x < gridHeight; x++) {
       let row = mainGrid.insertRow(x);
 
-      for (let y = 0; y < gridX; y++) {
+      for (let y = 0; y < gridWidth; y++) {
         let cell = row.insertCell(y);
 
         cell.addEventListener('click', function(event) {

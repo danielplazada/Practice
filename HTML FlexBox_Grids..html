@@ -3,57 +3,12 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>HTML FlexBox & Grids</title>
+    <link rel="stylesheet" href="blog_style.css">
+    <title>Blog Post Project</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport" />
-
-    <style>
-        .container {
-            font-size: 30px;
-            display: grid;
-            grid-template-columns: 300px 300px 300px;
-            grid-template-rows: 250px 600px;
-            grid-template-areas: "hd hd hd hd hd hd hd hd" "sd sd sd main main main main main""ft ft ft ft ft ft ft ft";
-        }
-        
-        .header {
-            border: 5px solid red;
-        }
-        
-        .main {
-            border: 5px solid blue;
-        }
-        
-        .sidebar {
-            border: 5px solid green;
-        }
-        
-        .footer {
-            border: 5px solid orangered;
-        }
-        
-        #one {
-            /* note many solutions are acceptable here */
-            grid-area: hd;
-        }
-        
-        #two {
-            /* note many solutions are acceptable here */
-            grid-area: sd;
-        }
-        
-        #three {
-            /* note many solutions are acceptable here */
-            grid-area: main;
-        }
-        
-        #four {
-            /* note many solutions are acceptable here */
-            grid-area: ft;
-        }
-    </style>
 </head>
 
-<body style="background-color: rgb(0, 0, 0)">
+<body>
     <div class="container" style="color: papayawhip">
         <div id="one" class="header"> Header</div>
         <div id="two" class="sidebar"> Sidebar</div>
